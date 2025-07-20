@@ -1,0 +1,78 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(199, 193, 216);
+    background-image: url(image/recent.jpg);
+    padding-top: 3rem;
+}
+.heading{
+    position: relative;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px ;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3 , 2fr);
+    grid-template-rows: repeat(3 , 2fr);
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 50px;
+    background-color:rgb(199, 193, 216);;
+    opacity: 0.6;
+    box-shadow: 2px 2px 5px white;
+}
+
+.gridBox{
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.gridBox:hover{
+    background-color: dimgray;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-weight: 600;
+}
+
+.playerButton{
+    border: none;
+    box-shadow: 2px 2px 5px white;
+    padding: 2px;
+    background-color:transparent ;
+    
+}
+
+#button{
+    margin-top: 2rem;
+    border-color: black;
+    box-shadow: 2px 2px 5px white;
+    color:black;
+    background-color:rgb(199, 193, 216);
+    cursor: pointer;
+    text-shadow: 2px 2px 5px;
+    opacity: 0.6;
+}
+
+#button:hover{
+    background-color: dimgray;
+}
+
